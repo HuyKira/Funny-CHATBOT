@@ -1,0 +1,129 @@
+.fcb_chat-box .clear{
+  clear: both;
+}
+.fcb_chat-box {
+  font-family: arial;
+  width: 300px;
+  height: 370px;
+  position: inherit!important;
+  bottom: inherit!important;
+  right: inherit!important;
+  background: #fff;
+  border: 0;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); }
+  .fcb_chat-box .content-chat h3 {
+    background: #ec7ebd;
+    margin: 0px;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 10px;
+    font-weight: 400;
+    text-transform: inherit;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2); }
+    .fcb_chat-box .content-chat h3 a {
+      color: #fff; }
+    .fcb_chat-box .content-chat h3 .name {
+      float: left; }
+    .fcb_chat-box .content-chat h3 .icon {
+      float: right; }
+      .fcb_chat-box .content-chat h3 .icon .fa {
+        margin-left: 10px;
+        color: #ededed; }
+        .fcb_chat-box .content-chat h3 .icon .fa:hover {
+          color: #fff; }
+  .fcb_chat-box .content-chat .chat-content {
+    padding: 15px;
+    height: 250px;
+    overflow: auto;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 5px; }
+    .fcb_chat-box .content-chat .chat-content ul.start-chat {
+      margin-left: 0px;
+      padding: 0;
+      list-style: none;
+      margin-bottom: 15px; }
+      .fcb_chat-box .content-chat .chat-content ul.start-chat li {
+        list-style: none;
+        position: relative;
+        padding: 0px;
+        margin-bottom: 0px;
+        padding-left: 45px; }
+        .fcb_chat-box .content-chat .chat-content ul.start-chat li.load img {
+          width: 65px; }
+        .fcb_chat-box .content-chat .chat-content ul.start-chat li:first-child p {
+          border-top-left-radius: 15px;
+          border-bottom-left-radius: 0px; }
+        .fcb_chat-box .content-chat .chat-content ul.start-chat li:last-child p {
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 15px; }
+        .fcb_chat-box .content-chat .chat-content ul.start-chat li p {
+          background: #ededed;
+          padding: 5px 10px;
+          font-style: inherit;
+          border-radius: 15px;
+          display: inline-block;
+          margin-bottom: 1px;
+          margin-top: 0px;
+          font-size: 13px;
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 0px; }
+        .fcb_chat-box .content-chat .chat-content ul.start-chat li .fa {
+          font-size: 30px;
+          color: #ec7ebd; }
+        .fcb_chat-box .content-chat .chat-content ul.start-chat li:last-child:after {
+          content: '';
+          width: 40px;
+          height: 40px;
+          display: block;
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          background: #e00 url(../images/avt.jpg) center center no-repeat;
+          background-size: 100%; }
+        .fcb_chat-box .content-chat .chat-content ul.start-chat li p.live {
+          border-radius: 15px !important; }
+    .fcb_chat-box .content-chat .chat-content ul.cus-chat {
+      list-style: none;
+      margin-bottom: 15px; }
+      .fcb_chat-box .content-chat .chat-content ul.cus-chat li {
+        list-style: none;
+        text-align: right; }
+        .fcb_chat-box .content-chat .chat-content ul.cus-chat li p {
+          padding: 5px 10px;
+          border-radius: 15px;
+          font-style: inherit;
+          display: inline-block;
+          margin-bottom: 1px;
+          font-size: 13px;
+          text-align: left;
+          background: #ec7ebd;
+          color: #fff; }
+  .fcb_chat-box .content-chat .form-chat .form-control {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background: #fff;
+    font-size: 13px;
+    box-shadow: none;
+    padding-left: 10px;
+    height: 35px; }
+  .fcb_chat-box .content-chat .bottom-icon {
+    padding: 0px 15px;
+    color: #ababab; }
+    .fcb_chat-box .content-chat .bottom-icon .fa {
+      margin-right: 20px;
+      font-size: 15px;
+      cursor: pointer; }
+
+.tab-name {
+  bottom: 0px;
+  padding: 4px 60px;
+  display: inline-block;
+  background: #fff;
+  right: 30px;
+  border: 1px solid #ededed;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 3px; }
